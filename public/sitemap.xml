@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/getting-started/installation/</loc>
+  </url><url>
+    <loc>http://localhost:1313/getting-started/icons/</loc>
+  </url><url>
+    <loc>http://localhost:1313/components/data-display/accordion/</loc>
+  </url><url>
+    <loc>http://localhost:1313/components/data-display/avatar/</loc>
+  </url><url>
+    <loc>http://localhost:1313/components/data-display/badge/</loc>
+  </url><url>
+    <loc>http://localhost:1313/components/data-display/card/</loc>
+  </url><url>
+    <loc>http://localhost:1313/components/data-display/countdown/</loc>
+  </url><url>
+    <loc>http://localhost:1313/components/data-display/kbd/</loc>
+  </url><url>
+    <loc>http://localhost:1313/components/data-display/timeline/</loc>
+  </url><url>
+    <loc>http://localhost:1313/getting-started/</loc>
+  </url><url>
+    <loc>http://localhost:1313/getting-started/usage/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/components/</loc>
+  </url><url>
+    <loc>http://localhost:1313/components/data-display/</loc>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url>
+</urlset>
