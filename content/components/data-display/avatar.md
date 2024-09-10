@@ -2,22 +2,22 @@
 
 ## Avatar
 
-{{< iframe "https://coral-app-ufedz.ondigitalocean.app/avatars/default" >}}
+{{< iframe "avatars/default" >}}
 
 ## Avatar with Ring
 
-{{< iframe "https://coral-app-ufedz.ondigitalocean.app/avatars/ring" >}}
+{{< iframe "avatars/ring" >}}
 
 ## Avatar Sizes
 
-{{< iframe "https://coral-app-ufedz.ondigitalocean.app/avatars/sizes" >}}
+{{< iframe "avatars/sizes" >}}
 
 
 ## Avatar Group
 
-{{< iframe "https://coral-app-ufedz.ondigitalocean.app/avatars/group" >}}
+{{< iframe "avatars/group" >}}
 
 
 ## Online and Offline Status
 
-{{< iframe "https://coral-app-ufedz.ondigitalocean.app/avatars/online-offline" >}}
+{{< iframe "avatars/online-offline" >}}
