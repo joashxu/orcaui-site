@@ -2,22 +2,22 @@
 
 ## Avatar
 
-{{< iframe "avatars/default" >}}
+{{< iframe "avatars/default" 16rem >}}
 
 ## Avatar with Ring
 
-{{< iframe "avatars/ring" >}}
+{{< iframe "avatars/ring" 16rem >}}
 
 ## Avatar Sizes
 
-{{< iframe "avatars/sizes" >}}
+{{< iframe "avatars/sizes" 16rem >}}
 
 
 ## Avatar Group
 
-{{< iframe "avatars/group" >}}
+{{< iframe "avatars/group" 16rem >}}
 
 
 ## Online and Offline Status
 
-{{< iframe "avatars/online-offline" >}}
+{{< iframe "avatars/online-offline" 16rem >}}

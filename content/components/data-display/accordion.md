@@ -3,8 +3,8 @@
 
 ## Default
 
-{{< iframe "accordions/default" >}}
+{{< iframe "accordions/default" 24rem >}}
 
 ## Accordion with a Page Opened
 
-{{< iframe "accordions/preselected" >}}
+{{< iframe "accordions/preselected" 24rem >}}

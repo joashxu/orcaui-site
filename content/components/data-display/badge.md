@@ -3,29 +3,29 @@
 
 ## Badge
 
-{{< iframe "badges/brand-color" >}}
+{{< iframe "badges/brand-color" 12rem >}}
 
 ## Outline badge
 
-{{< iframe "badges/outline" >}}
+{{< iframe "badges/outline" 12rem >}}
 
 
 ## Badge Sizes
 
-{{< iframe "badges/sizes" >}}
+{{< iframe "badges/sizes" 12rem >}}
 
 ## Empty Badge
 
-{{< iframe "badges/empty" >}}
+{{< iframe "badges/empty" 12rem >}}
 
 ## Badge with State Colors
 
-{{< iframe "badges/state-color" >}}
+{{< iframe "badges/state-color" 12rem >}}
 
 ## Badge in a Text
 
-{{< iframe "badges/in-text" >}}
+{{< iframe "badges/in-text" 16rem >}}
 
 ## Badge in a Button
 
-{{< iframe "badges/in-button" >}}
+{{< iframe "badges/in-button" 12rem >}}
