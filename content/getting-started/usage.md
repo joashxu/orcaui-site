@@ -29,3 +29,5 @@ Now that you have created the component, you can use it with the following.
 ```html
 {% #Kbd %}Ctrl{% /Kbd %} + {% #Kbd %}Shift{% /Kbd %} + {% #Kbd %}Del{% /Kbd %}
 ```
+
+{{< iframe "kbd/combination" 12rem >}}

@@ -1,8 +1,21 @@
 # Avatar
 
-## Avatar
+## The Component
 
-{{< iframe "avatars/default" 16rem >}}
+```django {filename="avatar.html"}
+{% var size=size|match:"xs: w-6 , sm: w-8 , lg: w-12, xl: w-24"|default:"w-10" %}
+{% var rounded=rounded|default:"rounded-full" %}
+{% if with_ring %}{% var ring="ring ring-primary ring-offset-base-100 ring-offset-2" %}{% else %}{% var ring="" %}{% endif %}
+
+<div class="overflow-hidden inline-flex {% if with_ring %}p-3{% endif %}" 
+     x-data="{ showImage: false, options: '{{ size }} {{ rounded }} {{ ring }}' }">
+  {{ children }}
+</div>
+```
+
+## Usage
+
+{{< iframe "avatars/default" 14rem >}}
 
 ```django
 {% #Avatar %}
@@ -18,7 +31,7 @@
 {% /Avatar %}
 ```
 
-## Avatar with Ring
+### Avatar with Ring
 
 {{< iframe "avatars/ring" 16rem >}}
 
@@ -33,9 +46,9 @@
 {% /Avatar %}
 ```
 
-## Avatar Sizes
+### Avatar Sizes
 
-{{< iframe "avatars/sizes" 16rem >}}
+{{< iframe "avatars/sizes" 14rem >}}
 
 ```django
 {% #Avatar size="xs" %}
@@ -52,9 +65,9 @@
 {% /Avatar %}
 ```
 
-## Avatar Group
+### Avatar Group
 
-{{< iframe "avatars/group" 16rem >}}
+{{< iframe "avatars/group" 14rem >}}
 
 ```django
 {% #AvatarGroup %}
@@ -73,9 +86,9 @@
 {% /AvatarGroup %}
 ```
 
-## Online and Offline Status
+### Online and Offline Status
 
-{{< iframe "avatars/online-offline" 16rem >}}
+{{< iframe "avatars/online-offline" 14rem >}}
 
 ```django
 {% #Avatar %}
