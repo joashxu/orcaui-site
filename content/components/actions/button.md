@@ -14,11 +14,19 @@
         {% if el == "div" %}tabindex="0" role="button"{% endif %}
         class="btn {% if active %}btn-active{% endif %} {% if block %}btn-block{% endif %} {{ shape }} {{ modifier }} {{ variant }} {{ size }} {{ classes }}"
         {% attrs id name form value disabled href %}
-        {% attrs hx-get x-post hx-confirm %}
+        {% attrs hx-get hx-post hx-confirm %}
         {% attrs x-show x-cloak x-ref @click @click.once :id :disabled :class %}>
   {{ children }}
 </{{el}}>
 ```
+
+## Properties
+
+| Property | Description                                                                                | Default |
+| -------- | ------------------------------------------------------------------------------------------ | ------- |
+| size     | *xs*, *sm*, *md*, *lg*                                                                     | *md*    |
+| variant  | *neutral, primary, primary, secondary, accent, ghost, info, success, warning, error, link* |         |
+| shape    | *square, circle*                                                                           |         |
 
 ## Usage
 
